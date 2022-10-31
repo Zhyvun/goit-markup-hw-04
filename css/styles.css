@@ -186,11 +186,6 @@ body {
 .icon-contacts {
   vertical-align: middle;
   margin-right: 10px;
-  fill: var(--color-minor);
-}
-
-.contacts-header:hover .icon-contacts,
-.contacts-header:focus .icon-contacts {
   fill: currentColor;
 }
 
@@ -460,10 +455,6 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.portfolio-title a {
-  text-decoration: none;
-}
-
 .portfolio-title {
   display: flex;
   flex-wrap: wrap;
@@ -476,9 +467,13 @@ body {
   border: 1px solid var(--color-solid);
 }
 
+.portfolio-link {
+  text-decoration: none;
+  display: block;
+}
+
 .portfolio-link:hover,
 .portfolio-link:focus {
-  display: block;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -539,7 +534,7 @@ a.decoration-more {
   align-items: baseline;
 }
 
-.footer-soc > h2 {
+.footer-soc > p {
   color: var(--color-bacground-basic);
   font-weight: 700;
   font-size: 14px;
